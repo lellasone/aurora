@@ -75,7 +75,7 @@ Using the arduino IDE Install:
 (Sketch -> Include Library -> Manage Libraries...)
  - SD
  - TFT_eSPI
- - lvgl
+ - lvgl, Version 8.4.0
  - arduinoFFT (for debugging, optional)
  
  Navigate to your a libraries folder (likely C:/Users/[Name]/Documents/Arduino/libraries) and clone the [arduinoLua](https://github.com/blackketter/LuaArduino) repo. 
@@ -101,7 +101,7 @@ Using the arduino IDE Install:
 (Sketch -> Include Library -> Manage Libraries...)
  - SD
  - TFT_eSPI
- - lvgl
+ - lvgl, Version 8.4.0
  - arduinoFFT (for debugging, optional)
  
  Navigate to your a libraries folder (likely /home/[name]/Arduino/libraries) and clone the [arduinoLua](https://github.com/blackketter/LuaArduino) repo. 
