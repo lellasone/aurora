@@ -56,6 +56,17 @@ end
 ```
 
 # Compile / Upload:
+
+## Uploading: 
+Files can be uploaded to the device either by directly adding them to the sd card or using the upload.py utility. To use the upload.py utility navigate to the patterns directory and run the following command:
+```
+python upload.py [--save] [teensy port] [file name]
+```
+For example, to upload the stars pattern and save it to the sd card the command would be:
+```
+python upload.py --save /dev/ttyACM0 Splashes.lua
+```
+
 ## Site Customization: : 
 Although you can run the Aurora firmware as-is, you will probably want to go in and customize the LED settings to match the specific layout of your installation. This customization is done in the aurora_sw/src/lights.h file as follows. Examples are included for a few different possible configurations. 
 
