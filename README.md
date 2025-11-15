@@ -62,7 +62,7 @@ Files can be uploaded to the device either by directly adding them to the sd car
 ```
 python upload.py [--save] [teensy port] [file name]
 ```
-For example, to upload the stars pattern and save it to the sd card the command would be:
+For example, to upload the Splashes pattern and save it to the sd card the command would be:
 ```
 python upload.py --save /dev/ttyACM0 Splashes.lua
 ```
